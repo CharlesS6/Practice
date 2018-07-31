@@ -198,9 +198,7 @@ public class ItsyBitsySpiderVisualizer {
 			
 			if (ScanInput.hasNextInt()) {
 				validInput = ScanInput.nextInt();
-				if (validInput <= max && validInput >= min) { // check if
-																// input is from
-																// min to max.	
+				if (validInput <= max && validInput >= min) { // check if input is from min to max.											
 					return validInput;								
 				} else if (validInput < min) {
 					validInput = -1;
